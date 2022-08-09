@@ -105,7 +105,8 @@ export default {
     },
 
     created(){
-        
+
+        this.subirTopo();
         this.getPessoas();
     },
 
@@ -137,6 +138,7 @@ export default {
 
         id(){
 
+            
             this.loading = true;
             
             if(this.getPessoas() === 'true'){

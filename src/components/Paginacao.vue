@@ -54,16 +54,6 @@ export default {
             this.paginaAtual = this.page;
         },
     },
-
-    methods: {
-        subirTopo(){
-            
-            window.scrollTo({
-                top: 0,
-                behavior: 'smooth'
-            });
-        }
-    }
 }
 </script>
 

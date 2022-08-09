@@ -140,6 +140,7 @@ export default {
 
     created(){
         
+        this.subirTopo();
         this.getFilmes();
     },
 
@@ -187,7 +188,8 @@ export default {
     watch: {
 
         id(){
-            
+
+            this.subirTopo();
             this.loading = true;
 
             if(this.getFilmes() === 'true'){

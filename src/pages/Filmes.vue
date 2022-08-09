@@ -24,7 +24,6 @@
                             <div class="tituloFilme">
                                 {{filme.title}}
                             </div>
-                            
                         </div>
                     </div>
                 </div>

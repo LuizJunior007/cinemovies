@@ -28,6 +28,13 @@ const globalMethods = Vue.mixin({
             }
         },
         
+        subirTopo(){
+            
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        }
     }
 })
 

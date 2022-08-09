@@ -138,6 +138,7 @@ export default {
 
     async created(){
         
+        this.subirTopo();
         this.getSeries();
     },
 
@@ -186,6 +187,7 @@ export default {
     watch: {
         id(){
 
+            this.subirTopo();
             this.loading = true;
             
             if(this.getSeries() === 'true'){
